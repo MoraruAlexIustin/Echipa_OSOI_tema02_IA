@@ -38,4 +38,6 @@ if __name__=="__main__":
     axes[1, 1].set_ylabel('Bacsis mediu ($)')
 
     plt.tight_layout()
+    plt.savefig("assets/tips_dashboard_analiza.png", dpi=150, bbox_inches='tight')
+
     plt.show()
